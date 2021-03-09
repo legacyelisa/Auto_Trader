@@ -1,0 +1,655 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-22T07:41:23.343Z",
+        "before": [
+          {
+            "result": {
+              "duration": 698800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User goes to Autotrader Website",
+        "description": "",
+        "id": ";user-goes-to-autotrader-website",
+        "after": [
+          {
+            "result": {
+              "duration": 9900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1068400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User is in landing page",
+            "match": {
+              "location": "AutoTraderSteps.user_is_in_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 357800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Verify that \"Browse by Make\" are present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browse by Make\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutoTraderSteps.verify_that_are_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 479400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Verify that \"Browse by Style\" are present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browse by Style\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutoTraderSteps.verify_that_are_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 321600,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Verify that \"Advanced Search\" are present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advanced Search\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutoTraderSteps.verify_that_are_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 327100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verify that search button is present.",
+            "match": {
+              "location": "AutoTraderSteps.verify_that_search_button_is_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308900,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "verify that \"Any Make\" and \"Any Model\" is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Any Make\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Any Model\"",
+                  "offset": 27
+                }
+              ],
+              "location": "AutoTraderSteps.verify_that_and_is_visible(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          },
+          {
+            "name": "@unit_test"
+          },
+          {
+            "name": "@regression_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-22T07:41:23.396Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User checks the Advance search link",
+        "description": "",
+        "id": ";user-checks-the-advance-search-link",
+        "after": [
+          {
+            "result": {
+              "duration": 12700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 266300,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User click Advance Search link on the home page",
+            "match": {
+              "location": "AutoTraderSteps.user_click_Advance_Search_link_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 385500,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User enter \"30004\" in the zip code text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"30004\"",
+                  "offset": 11
+                }
+              ],
+              "location": "AutoTraderSteps.user_enter_in_the_zip_code_text_box(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 364700,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User select \"Certified\" check box under \"Condition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Certified\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Condition\"",
+                  "offset": 40
+                }
+              ],
+              "location": "AutoTraderSteps.user_select_check_box_under(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249200,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User select \"Convertible\" check box under \"Style\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convertible\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Style\"",
+                  "offset": 42
+                }
+              ],
+              "location": "AutoTraderSteps.user_select_check_box_under(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 437200,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user update Year \"2017\" to \"2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2017\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"2020\"",
+                  "offset": 27
+                }
+              ],
+              "location": "AutoTraderSteps.user_update_Year_to(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259200,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user select \"BMW\" car from Make,Model and Trim section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BMW\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutoTraderSteps.user_select_car_from_Make_Model_and_Trim_section(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 241700,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User clicks Search button",
+            "match": {
+              "location": "AutoTraderSteps.user_clicks_Search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285200,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User verifies that he is in result page",
+            "match": {
+              "location": "AutoTraderSteps.user_verifies_that_he_is_in_result_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 345500,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User verifies that he sees only \"BMW\" cars in listing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BMW\"",
+                  "offset": 32
+                }
+              ],
+              "location": "AutoTraderSteps.user_verifies_that_he_sees_only_cars_in_listing(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226500,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Display in console, the number of cars listed in result page",
+            "match": {
+              "location": "AutoTraderSteps.display_in_console_the_number_of_cars_listed_in_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          },
+          {
+            "name": "@integration_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-22T07:41:23.404Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "testing the multiple entry",
+        "description": "",
+        "id": ";testing-the-multiple-entry;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 71100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 353000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "choose make as \"BMW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BMW\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AutoTraderSteps.choose_make_as(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-22T07:41:23.413Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "testing the multiple entry",
+        "description": "",
+        "id": ";testing-the-multiple-entry;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 9300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 252800,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "choose make as \"Auidi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Auidi\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AutoTraderSteps.choose_make_as(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-22T07:41:23.418Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "testing the multiple entry",
+        "description": "",
+        "id": ";testing-the-multiple-entry;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 6900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 241100,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "choose make as \"Mercedes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mercedes\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AutoTraderSteps.choose_make_as(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-22T07:41:23.421Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "testing the multiple entry",
+        "description": "",
+        "id": ";testing-the-multiple-entry;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 84500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 267200,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "choose make as \"Toyota\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Toyota\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AutoTraderSteps.choose_make_as(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-22T07:41:23.429Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "testing the multiple entry",
+        "description": "",
+        "id": ";testing-the-multiple-entry;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 21800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 557200,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "choose make as \"Acura\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Acura\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AutoTraderSteps.choose_make_as(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  // Background: chrome testing\n //    Given user test with \"chrome\" browser",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AutoTrader.feature",
+    "tags": [
+      {
+        "name": "@smoke_test",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 2
+        }
+      }
+    ]
+  }
+]

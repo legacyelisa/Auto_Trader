@@ -3,8 +3,8 @@
  @smoke_test
  Feature:
 
-   Background: chrome testing
-     Given user test with "chrome" browser
+  // Background: chrome testing
+ //    Given user test with "chrome" browser
 
    @unit_test
    @regression_test
@@ -16,8 +16,8 @@
      And verify that search button is present.
      Then verify that "Any Make" and "Any Model" is visible
       #icerisinde parametreli hale getirir
-  #dynamic reusable hale getirir
-  #double qoute means its a parameter
+      #dynamic reusable hale getirir
+       #double qoute means its a parameter
 
 
    @integration_test

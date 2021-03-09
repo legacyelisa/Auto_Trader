@@ -13,7 +13,7 @@ import java.util.Set;
 public class AutoTraderPage {
 
     /**
- * Locators
+ * Locators           -=-
  */
 @FindBy(xpath = "//button[contains(@title,'Browse by Make')]")
 public WebElement browseByMake;

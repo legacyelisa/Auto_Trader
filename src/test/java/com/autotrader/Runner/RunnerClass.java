@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/autotrader/stepDefinitions",
         dryRun =true,  //true: testleri run etmeden dry sekilde run eder ----methodlari calistirir ve creates the snipppets====true methodlarin var olup olmadigina bakar
-        tags = "@smoke_test,@unit_test",
+        tags = "@smoke_test or @unit_test",
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
                 "rerun:target/rerun.txt"        //rerun: fail olan testleri cucumber buraya store ediyor,hangileri fail hangi satirda detaylari ile
@@ -24,5 +24,4 @@ import org.junit.runner.RunWith;
 //testng ve junit birlikte calisabilir
 
     public class RunnerClass {
-
-    }
+}
